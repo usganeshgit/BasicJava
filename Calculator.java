@@ -2,46 +2,33 @@
 public class Calculator {
 
 	//Declare two variables here
+	int number1=10;
+	int number2=5;
 	
-	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-      if(sum(6,3)==9)
-      {
-    	  System.out.print("Sum Executed successfully");
-      }
-      if(multiply(6,3)==18)
-      {
-    	  System.out.print("Multiply Executed successfully");
-      }
-      if(division(6,3)==2)
-      {
-    	  System.out.print("division Executed successfully");
-      }
-      if(subtract(6,3)==3)
-      {
-    	  System.out.print("Subtract Executed successfully");
-      }
+	Calculator(int number1,int number2)
+	{
+       this.number1 = number1;
+	   this.number2 = number2;
 	}
 	
+	
 	//Pass two variables into the below method and return sum
-	public static int sum( ) {
+	public int sum( ) {
 		
 	}
 	
 	//Pass two variables into the below method and return product
-	public static int multiply() {
+	public  int multiply() {
 		
 	}
 	
 	//Pass two variables into the below method and return quotient
-	public static int division() {
+	public  int division() {
 		
 	}
 	
 	//Pass two variables into the below method and return difference
-	public static int subtract() {
+	public  int subtract() {
 		
 	}
 
