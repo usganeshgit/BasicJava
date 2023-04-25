@@ -4,18 +4,19 @@ public class Testcases {
         Calculator cl = new Calculator(6,3);
       if(cl.sum(6,3)==9)
       {
-    	  System.out.print("Sum Executed successfully");
+    	  System.out.println("Sum Executed successfully");
       }
       if(cl.multiply(6,3)==18)
       {
-    	  System.out.print("Multiply Executed successfully");
+    	  System.out.println("Multiply Executed successfully");
       }
       if(cl.division(6,3)==2)
       {
-    	  System.out.print("division Executed successfully");
+    	  System.out.println("division Executed successfully");
       }
       if(cl.subtract(6,3)==3)
       {
-    	  System.out.print("Subtract Executed successfully");
+    	  System.out.println("Subtract Executed successfully");
       }
+}
 }
